@@ -3,16 +3,11 @@ $primary-dark: #ffb4a2;
 $secondary-light: #e5989b;
 $secondary-dark: #b5828c;
 
-$primary-light-variant: lighten($primary-light, 10%);
-$primary-dark-variant: darken($primary-dark, 10%);
-$secondary-light-variant: lighten($secondary-light, 15%);
-$secondary-dark-variant: darken($secondary-dark, 10%);
+$primary-light-variant: #ffeee5;
 
 $accent-color: #6c4f60;
 $button-color: #e5989b;
 $button-hover: #b5828c;
-
-
 
 * {
   margin: 0;

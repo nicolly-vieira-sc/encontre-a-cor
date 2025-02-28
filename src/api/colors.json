@@ -48,7 +48,6 @@
     { "code": "300", "name": "Mahogany Very Dark", "rgb": [111, 47, 0] },
     { "code": "433", "name": "Brown Medium", "rgb": [122, 69, 31] },
     { "code": "818", "name": "Baby Pink", "rgb": [255, 223, 217] },
-    { "code": "605", "name": "Cranberry Very Light", "rgb": [255, 192, 205] },
     { "code": "894", "name": "Carnation Very Light", "rgb": [255, 178, 187] },
     { "code": "603", "name": "Cranberry", "rgb": [255, 164, 190] },
     { "code": "3706", "name": "Melon Medium", "rgb": [255, 173, 188] },
