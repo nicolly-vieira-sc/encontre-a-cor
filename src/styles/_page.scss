@@ -1,0 +1,123 @@
+/* General Styling */
+.color-finder {
+  padding: 16px;
+  background-color: $primary-light-variant;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: $accent-color;
+}
+
+.color-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.fieldset-color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 0 10px;
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 4px;
+  border: 1px solid $primary-dark;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: $button-color;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: $button-hover;
+}
+
+.output {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.output-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: $accent-color;
+}
+
+.color-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.color-box {
+  height: 30px;
+  width: 50px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.color-code,
+.color-name,
+.color-rgb {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.color-code {
+  // width: 10%;
+}
+
+.color-name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.color-rgb {
+  display: flex;
+  justify-content: flex-end;
+  // width: 30%;
+}
